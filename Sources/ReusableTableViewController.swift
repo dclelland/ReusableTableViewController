@@ -81,7 +81,7 @@ open class ReusableTableViewController<Value, Section: ReusableTableViewSection>
     }
     
     override open func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        return tableView.estimatedRowHeight
+        return 44.0
     }
     
     override open func tableView(_ tableView: UITableView, shouldHighlightRowAt indexPath: IndexPath) -> Bool {
