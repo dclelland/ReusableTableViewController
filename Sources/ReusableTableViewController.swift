@@ -76,14 +76,6 @@ open class ReusableTableViewController<Value, Section: ReusableTableViewSection>
     
     // MARK: - Table view delegate
     
-    override open func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
-    }
-    
-    override open func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 44.0
-    }
-    
     override open func tableView(_ tableView: UITableView, shouldHighlightRowAt indexPath: IndexPath) -> Bool {
         guard let row = row(at: indexPath) as? SelectableTableViewRow else {
             return false
