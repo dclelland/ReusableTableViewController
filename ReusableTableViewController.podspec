@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/dclelland/ReusableTableViewController.git", :tag => "0.2.0" }
   s.ios.source_files = 'Sources/**/*.swift'
   s.ios.deployment_target = '10.0'
-  s.ios.dependency 'Reusable', '~> 4.0'
+  s.ios.dependency 'Reusable', '~> 4.0.3'
   s.ios.dependency 'RefreshableViewController', '~> 0.3'
 end
