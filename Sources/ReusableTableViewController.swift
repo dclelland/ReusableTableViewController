@@ -32,7 +32,7 @@ open class ReusableTableViewController<Value, Section: ReusableTableViewSection>
     
     // MARK: Initializers
     
-    public convenience init(style: UITableViewStyle, sections: [Section]) {
+    public convenience init(style: UITableView.Style, sections: [Section]) {
         self.init(style: style)
         self.sections = sections
     }
